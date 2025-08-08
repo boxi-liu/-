@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/装甲板识别
+CMAKE_SOURCE_DIR = /home/liu/Armor_plate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/装甲板识别/build
+CMAKE_BINARY_DIR = /home/liu/Armor_plate/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liu/装甲板识别/build/CMakeFiles /home/liu/装甲板识别/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liu/Armor_plate/build/CMakeFiles /home/liu/Armor_plate/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liu/装甲板识别/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liu/Armor_plate/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ DisplayImage/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
 .PHONY : DisplayImage/fast
 
-src/LightDescriptor.o: src/LightDescriptor.cpp.o
-.PHONY : src/LightDescriptor.o
+src/Armor_plate.o: src/Armor_plate.cpp.o
+.PHONY : src/Armor_plate.o
 
 # target to build an object file
-src/LightDescriptor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o
-.PHONY : src/LightDescriptor.cpp.o
+src/Armor_plate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o
+.PHONY : src/Armor_plate.cpp.o
 
-src/LightDescriptor.i: src/LightDescriptor.cpp.i
-.PHONY : src/LightDescriptor.i
+src/Armor_plate.i: src/Armor_plate.cpp.i
+.PHONY : src/Armor_plate.i
 
 # target to preprocess a source file
-src/LightDescriptor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.i
-.PHONY : src/LightDescriptor.cpp.i
+src/Armor_plate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.i
+.PHONY : src/Armor_plate.cpp.i
 
-src/LightDescriptor.s: src/LightDescriptor.cpp.s
-.PHONY : src/LightDescriptor.s
+src/Armor_plate.s: src/Armor_plate.cpp.s
+.PHONY : src/Armor_plate.s
 
 # target to generate assembly for a file
-src/LightDescriptor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.s
-.PHONY : src/LightDescriptor.cpp.s
+src/Armor_plate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.s
+.PHONY : src/Armor_plate.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,9 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DisplayImage"
-	@echo "... src/LightDescriptor.o"
-	@echo "... src/LightDescriptor.i"
-	@echo "... src/LightDescriptor.s"
+	@echo "... src/Armor_plate.o"
+	@echo "... src/Armor_plate.i"
+	@echo "... src/Armor_plate.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

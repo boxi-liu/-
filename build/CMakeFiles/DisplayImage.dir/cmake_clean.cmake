@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "../bin/DisplayImage"
   "../bin/DisplayImage.pdb"
-  "CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o"
-  "CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o.d"
+  "CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o"
+  "CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o.d"
   "CMakeFiles/DisplayImage.dir/src/main.cpp.o"
   "CMakeFiles/DisplayImage.dir/src/main.cpp.o.d"
 )

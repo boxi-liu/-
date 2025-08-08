@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/装甲板识别
+CMAKE_SOURCE_DIR = /home/liu/Armor_plate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/装甲板识别/build
+CMAKE_BINARY_DIR = /home/liu/Armor_plate/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DisplayImage.dir/depend.make
@@ -69,43 +69,43 @@ include CMakeFiles/DisplayImage.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DisplayImage.dir/flags.make
 
-CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o: CMakeFiles/DisplayImage.dir/flags.make
-CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o: ../src/LightDescriptor.cpp
-CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o: CMakeFiles/DisplayImage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liu/装甲板识别/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o -MF CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o.d -o CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o -c /home/liu/装甲板识别/src/LightDescriptor.cpp
+CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o: CMakeFiles/DisplayImage.dir/flags.make
+CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o: ../src/Armor_plate.cpp
+CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o: CMakeFiles/DisplayImage.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liu/Armor_plate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o -MF CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o.d -o CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o -c /home/liu/Armor_plate/src/Armor_plate.cpp
 
-CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liu/装甲板识别/src/LightDescriptor.cpp > CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.i
+CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liu/Armor_plate/src/Armor_plate.cpp > CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.i
 
-CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liu/装甲板识别/src/LightDescriptor.cpp -o CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.s
+CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liu/Armor_plate/src/Armor_plate.cpp -o CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.s
 
 CMakeFiles/DisplayImage.dir/src/main.cpp.o: CMakeFiles/DisplayImage.dir/flags.make
 CMakeFiles/DisplayImage.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/DisplayImage.dir/src/main.cpp.o: CMakeFiles/DisplayImage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liu/装甲板识别/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DisplayImage.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DisplayImage.dir/src/main.cpp.o -MF CMakeFiles/DisplayImage.dir/src/main.cpp.o.d -o CMakeFiles/DisplayImage.dir/src/main.cpp.o -c /home/liu/装甲板识别/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liu/Armor_plate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DisplayImage.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DisplayImage.dir/src/main.cpp.o -MF CMakeFiles/DisplayImage.dir/src/main.cpp.o.d -o CMakeFiles/DisplayImage.dir/src/main.cpp.o -c /home/liu/Armor_plate/src/main.cpp
 
 CMakeFiles/DisplayImage.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayImage.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liu/装甲板识别/src/main.cpp > CMakeFiles/DisplayImage.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liu/Armor_plate/src/main.cpp > CMakeFiles/DisplayImage.dir/src/main.cpp.i
 
 CMakeFiles/DisplayImage.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayImage.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liu/装甲板识别/src/main.cpp -o CMakeFiles/DisplayImage.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liu/Armor_plate/src/main.cpp -o CMakeFiles/DisplayImage.dir/src/main.cpp.s
 
 # Object files for target DisplayImage
 DisplayImage_OBJECTS = \
-"CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o" \
+"CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o" \
 "CMakeFiles/DisplayImage.dir/src/main.cpp.o"
 
 # External object files for target DisplayImage
 DisplayImage_EXTERNAL_OBJECTS =
 
-../bin/DisplayImage: CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o
+../bin/DisplayImage: CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o
 ../bin/DisplayImage: CMakeFiles/DisplayImage.dir/src/main.cpp.o
 ../bin/DisplayImage: CMakeFiles/DisplayImage.dir/build.make
 ../bin/DisplayImage: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
@@ -163,7 +163,7 @@ DisplayImage_EXTERNAL_OBJECTS =
 ../bin/DisplayImage: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
 ../bin/DisplayImage: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 ../bin/DisplayImage: CMakeFiles/DisplayImage.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liu/装甲板识别/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/DisplayImage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liu/Armor_plate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/DisplayImage"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DisplayImage.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -175,6 +175,6 @@ CMakeFiles/DisplayImage.dir/clean:
 .PHONY : CMakeFiles/DisplayImage.dir/clean
 
 CMakeFiles/DisplayImage.dir/depend:
-	cd /home/liu/装甲板识别/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/装甲板识别 /home/liu/装甲板识别 /home/liu/装甲板识别/build /home/liu/装甲板识别/build /home/liu/装甲板识别/build/CMakeFiles/DisplayImage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/Armor_plate/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/Armor_plate /home/liu/Armor_plate /home/liu/Armor_plate/build /home/liu/Armor_plate/build /home/liu/Armor_plate/build/CMakeFiles/DisplayImage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DisplayImage.dir/depend
 

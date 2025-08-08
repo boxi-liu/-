@@ -2,27 +2,20 @@
 #include <opencv2/opencv.hpp>
 #include <vector>
 
-// 灯条类：存储单个灯条的信息
+
+// 灯条描述类
 class LightDescriptor {
-private:
-    cv::RotatedRect rect;  // 灯条旋转矩形
-    float angle;           // 灯条角度
-    cv::Point2f center;    // 灯条中心坐标
+public:
+    float width, length, angle, area;
+    cv::Point2f center;
 
 public:
-    // 构造函数
-    LightDescriptor(const cv::RotatedRect& r);
-
-    // 获取灯条角度
-    float getAngle() const;
-
-    // 获取灯条旋转矩形（修改方法名以匹配主函数调用）
-    cv::RotatedRect getRotatedRect() const;
-
-    // 获取灯条中心坐标
-    cv::Point2f getCenter() const;
-
-    // 计算与另一个灯条的中心距离
-    float distanceTo(const LightDescriptor& other) const;
+    LightDescriptor() = default;
+    LightDescriptor(const cv::RotatedRect& light);
 };
-    
+
+// 筛选灯条函数：从轮廓中筛选出符合条件的灯条
+std::vector<LightDescriptor> filterLights(const std::vector<std::vector<cv::Point>>& contours);
+
+// 匹配灯条函数：从筛选后的灯条中匹配成对的灯条并绘制
+void matchLights(cv::Mat& frame, const std::vector<LightDescriptor>& lightInfos);

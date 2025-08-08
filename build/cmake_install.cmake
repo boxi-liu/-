@@ -1,4 +1,4 @@
-# Install script for directory: /home/liu/装甲板识别
+# Install script for directory: /home/liu/Armor_plate
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/liu/装甲板识别/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/liu/Armor_plate/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

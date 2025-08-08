@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/liu/装甲板识别/src/LightDescriptor.cpp" "CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o" "gcc" "CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o.d"
-  "/home/liu/装甲板识别/src/main.cpp" "CMakeFiles/DisplayImage.dir/src/main.cpp.o" "gcc" "CMakeFiles/DisplayImage.dir/src/main.cpp.o.d"
+  "/home/liu/Armor_plate/src/Armor_plate.cpp" "CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o" "gcc" "CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o.d"
+  "/home/liu/Armor_plate/src/main.cpp" "CMakeFiles/DisplayImage.dir/src/main.cpp.o" "gcc" "CMakeFiles/DisplayImage.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

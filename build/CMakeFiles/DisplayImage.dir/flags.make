@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/liu/装甲板识别/include -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/home/liu/Armor_plate/include -isystem /usr/include/opencv4
 
 CXX_FLAGS = 
 

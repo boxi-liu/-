@@ -1,7 +1,6 @@
-CMakeFiles/DisplayImage.dir/src/LightDescriptor.cpp.o: \
- /home/liu/装甲板识别/src/LightDescriptor.cpp \
- /usr/include/stdc-predef.h \
- /home/liu/装甲板识别/include/LightDescriptor.h \
+CMakeFiles/DisplayImage.dir/src/Armor_plate.cpp.o: \
+ /home/liu/Armor_plate/src/Armor_plate.cpp /usr/include/stdc-predef.h \
+ /home/liu/Armor_plate/include/Armor_plate.h \
  /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
